@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Responsive Images</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Slabo+27px" rel="stylesheet">
+    <link href='main.css' rel='stylesheet'> </head>
+
+<body>
+    <main class="main">
+        <h1 class="main-title">Responsive Website</h1>
+        <h2>Mad by Zhenqian Qu</h2>
+        <ul class="gallery">
+            <li class="featured-image">
+               <picture>
+                <source srcset="img/fahim-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="img/fahim-med.jpg" media="(min-width: 700px) and (max-width: 1500px)"/>
+                <source srcset="img/fahim-large.jpg" media="(min-width: 1500px)"/> 
+                <img src="img/fahim-med.jpg" alt="Kund Malir Pakistan" />
+                <figcaption class="image-caption"> Mountian </figcaption>
+            </picture>
+            </li>
+            
+            <li class="featured-image">
+            <picture>
+                <source srcset="img/markus-g-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="img/markus-g-med.jpg" media="(min-width: 700px) and (max-width: 1500px)"/>
+                <source srcset="img/markus-g-large.jpg" media="(min-width: 1500px)"/> <img src="img/markus-g-med.jpg" alt="Carrots" />
+                <figcaption class="image-caption"> Guitar </figcaption>
+            </picture>
+            </li>
+            
+            <li class="featured-image">
+            <picture>
+                <source srcset="img/markus-s-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="img/markus-s-med.jpg" media="(min-width: 700px) and (max-width: 1500px)"/>
+                <source srcset="img/markus-s-large.jpg" media="(min-width: 1500px)"/> <img src="img/markus-s-med.jpg" alt="Concert Crowd" />
+                <figcaption class="image-caption"> Veg </figcaption>
+            </picture>
+            </li>
+            
+            <li class="featured-image">
+            <picture>
+                <source srcset="img/mss-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="img/mss-med.jpg" media="(min-width: 700px) and (max-width: 1500px)"/>
+                <source srcset="img/mss-large.jpg" media="(min-width: 1500px)"/> <img src="img/mss-med.jpg" alt="Guitar" />
+                <figcaption class="image-caption"> Band </figcaption>
+            </picture>
+            </li>
+            
+            <li class="featured-image">
+            <picture>
+                <source srcset="img/ycc-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="img/ycc-med.jpg" media="(min-width: 700px) and (max-width: 1500px)"/>
+                <source srcset="img/ycc-large.jpg" media="(min-width: 1500px)"/> <img src="img/ycc-med.jpg" alt="Stage" />
+                <figcaption class="image-caption"> Sun </figcaption>
+            </picture>
+            </li>
+            
+            <li class="featured-image">
+            <picture>
+                <source srcset="img/ycg-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="img/ycg-med.jpg" media="(min-width: 700px) and (max-width: 1500px)"/>
+                <source srcset="img/ycg-large.jpg" media="(min-width: 1500px)"/>
+                 <img src="img/ycg-med.jpg" alt="Castlerock Wisconsin" />
+                <figcaption class="image-caption"> Mountain </figcaption>
+            </picture>
+            </li>
+            
+            <li class="featured-image">
+            <picture>
+                <source srcset="img/markus-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="img/markus-med.jpg" media="(min-width: 700px) and (max-width: 1500px)"/>
+                <source srcset="img/markus-large.jpg" media="(min-width: 1500px)"/> 
+                <img src="img/markus-med.jpg" alt="Gibraltar Rock Wisconsin" />
+                <figcaption class="image-caption"> Stage </figcaption>
+            </picture>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
